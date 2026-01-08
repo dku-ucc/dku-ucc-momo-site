@@ -1,4 +1,4 @@
-# MoMo website admin user guide
+# MoMo Website admin user guide
 
 Hello! This README explains how to edit website content, add news items, and more. If you have questions please reach out to Billy Charlton. I'm happy to help! :-)
 
