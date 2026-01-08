@@ -1,11 +1,16 @@
-# MoMo Website build instructions
+# MoMo website admin user guide
 
-The MoMo website is built using Hugo and relies on the Hextra Starter Template.
+Hello! This README explains how to edit website content, add news items, and more. If you have questions please reach out to Billy Charlton. I'm happy to help! :-)
 
-- You can clone the repo or use the built-in web editor on GitHub itself if your changes are minor.
-- If you want to develop locally, [install hugo](https://gohugo.io/installation/) and run `hugo serve` to see a local hot-reloading copy of the site. See the bottom of this readme for more setup instructions.
+## 1. Overview
 
-## Auto-build
+Instead of a full "content management system" (CMS), this site uses Hugo, a free and open source website system. It uses Git and GitHub to manage content.
+
+That means that every change is recorded and we can always revert to a previous version -- so you don't need to worry about breaking things. If you break things we can just roll back to the previous edition of the site.
+
+To make changes to the site, you'll need a GitHub user account.
+
+#### Auto-build
 
 Commiting any changes to the main branch on Github will trigger an auto-build of the site that will go live in about 2-3 minutes. (The action sets up and then runs the `/convert-xlsx-to-json.py` script.)
 
@@ -16,9 +21,62 @@ Easy things you might want to change:
 
 Adding an entire new conference is a bigger task, generally you would want to copy the `/content/2025` folder, modify the `/data/conferences.yaml`, and then modify as needed.
 
-## Session details: speakers, presentation files etc
+## 2. Getting write access to the site
 
-Session details are NOT in Github: they are all included in the Google Sheet export that came from the Whova site. The 2025 sheet is here - world readable on purpose:
+There are two ways to make changes to the MoMo website:
+
+- Trusted Zephyr members can be added as maintainers of the site: please contact Billy or another admin to have your GitHub username added. Once you are added, you can modify the site directly.
+- All other community members can make a fork of the site, modify as desired, and send a standard pull request. See the [GitHub site documentation](https://docs.github.com/en/pull-requests) to learn about pull requests!
+
+## 3. Adding front page news items
+
+Use GitHub's built-in website content editor to add news items. All items are stored in the folder `./content/news`.
+
+Detailed instructions:
+
+**1. Be sure you are logged into GitHub as a user with write privileges.**
+
+If you do not have write access, fork the site and edit your own copy. You can create a pull request (PR) when you are done.
+
+**2. Create a new blank file for your news item.**
+
+- Navigate to the news folder here: [./content/news](https://github.com/ZephyrTransport/momo-website/tree/main/content/news)
+- Click the `Add File` button in the upper right. Choose 'Create new file'
+- Enter the name of the file **with this pattern:**<br/>`2026-01-17-my-short-title.md`
+
+**3. Paste this content into the file exactly as shown:**
+
+```yaml
+---
+title: Your title here
+date: 2025-10-05
+---
+Wow, we did it!
+Add your content here. Any valid markdown is supported.
+```
+
+After pasting, modify the **title:** and **date:** lines to match the title and date you want shown on the news item.
+
+**4. Now add your content in markdown format below the three dashes.**
+
+You can look at the other news items for examples of how this should look. Any markdown is supported including bullets, links, and images. In the editor you can paste an image from your clipboard in with `ctrl-v` or you can upload a file into the `./assets/images` folder. Either way works.
+
+Remember, the front matter lines at the top of the file are important! Make sure to include at least
+
+- `title: "My Flashy News Item Title"`
+- `date: 2026-01-17` (with your publish date, of course)
+
+**5. Click "commit changes" to save your work.**
+
+Your post will go live in about 2-3 minutes. Or if Hugo could not parse your file, editors will be an error email from Github and we can help you out!
+
+That's how you add news items! If this is too complicated Billy is happy to take your news item content and add it for you. Really!
+
+---
+
+## 4. Modifying conference details: agenda, attachments, etc
+
+Session details are the one thing **NOT** stored in Github: they are all included in the Google Sheet export that came from the Whova site. The 2025 sheet is here - world readable on purpose:
 
 - https://docs.google.com/spreadsheets/d/1h9T9-gtwsDiBqeEq0kxhfSD4gvLAU4tO/edit?gid=12805781
 
@@ -30,9 +88,16 @@ After editing the session sheet, the site DOES NOT auto-rebuild. You must trigge
 
 - https://github.com/ZephyrTransport/momo-website/actions/workflows/pages.yaml
 
-Notes below are from the original Hextra template README.
+## 5. For larger changes
+
+The MoMo website is built using Hugo and relies on the Hextra Starter Template.
+
+- You can clone the repo or use the built-in web editor on GitHub itself if your changes are minor.
+- If you want to develop locally, [install hugo](https://gohugo.io/installation/) and run `hugo serve` to see a local hot-reloading copy of the site. See the bottom of this readme for more setup instructions.
 
 ---
+
+Notes below are from the original Hextra template README.
 
 ## Hextra Starter Template
 
