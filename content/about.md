@@ -18,3 +18,9 @@ Because a group of volunteers cannot sign contracts, book conference spaces and 
 The 2025 MoMo Theme is **CONNECT!**
 
 MoMo25: Connect! celebrates the power of connection in transportation—linking people, goods, and ideas. As professionals, students, mentors, colleagues, and friends, we come together to share insights, learn from each other, and strengthen our collective practice. Together, we’ll explore how transportation can both empower and challenge communities, and work toward solutions that support meaningful connections for all.
+
+## Contact MoMo
+
+The best way to contact MoMo organizers is via email. We welcome all inquiries about the Modeling Mobility conference.
+
+**Email:** [modelingmobility@zephyrtransport.org](mailto:modelingmobility@zephyrtransport.org)
