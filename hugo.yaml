@@ -1,6 +1,6 @@
 # Hugo configuration file
-title: Modeling Mobility Conference
-baseURL: https://ModelingMobility.org
+title: DKU University Colloquium
+baseURL: https://dku-ucc.github.io/dku-ucc-momo-site/
 theme: hextra
 
 # import hextra as module
