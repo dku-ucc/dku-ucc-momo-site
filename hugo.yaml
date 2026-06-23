@@ -54,7 +54,7 @@ params:
 
   navbar:
     displayTitle: false
-    displayLogo: true
+    displayLogo: false
     logo:
       path: 'assets/images/JustMomo-trimmed.png'
       width: 150
