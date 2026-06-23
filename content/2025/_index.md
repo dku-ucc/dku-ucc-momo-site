@@ -1,40 +1,49 @@
 ---
-title: ''
-excludeSearch: true
-bannerimage: 'images/Minneapolis_notext.jpg'
-bannerText: 'momo 2025: Minneapolis'
+title: Event
+toc: false
 ---
 
-{{< bannerimage "images/Minneapolis_notext.jpg" "momo 2025: minneapolis" >}}
+# Event
 
-<div class="conf-section-picker">
-{{< confbutton "AGENDA" "" active >}}
-{{< confbutton "SPEAKERS" "./speakers" >}}
-{{< confbutton "PHOTOS" "./gallery" >}}
-{{< confbutton "MOMOSTS" "./momosts" >}}
-</div>
+This section showcases DKU University Colloquium events, including spotlight events, upcoming talks, and selected past events.
 
-{{< tabs >}}
+## Spotlight
 
-<br>
-September 14-17, 2025, in Minneapolis, Minnesota at the McNamara Alumni Center of the University of Minnesota (Twin Cities).
+### Dominant Strategies of Individuals and Organizations and their Social Contexts
 
-{{< tab name="SUN" >}}
-{{< sessionlist "09/14/2025" >}}
-{{< /tab >}}
+**Time:** 10:00 AM–11:30 AM, Friday, February 6  
+**Location:** AB1079  
+**Speaker:** Dr. Dingxin Zhao
 
-{{< tab name="MON" >}}
-{{< sessionlist "09/15/2025" >}}
-{{< /tab >}}
+Dominant Strategies of Individuals and Organizations and their Social Contexts is a DKU University Colloquium spotlight event featuring Dr. Dingxin Zhao.
 
-{{< tab name="TUE" >}}
-{{< sessionlist "09/16/2025" >}}
-{{< /tab >}}
+---
 
-{{< tab name="WED" >}}
-{{< sessionlist "09/17/2025" >}}
-{{< /tab >}}
+## Featured Events
 
-{{< /tabs >}}
+### Singularities in PDE
 
-{{< sponsors 0 >}}
+**Date and Time:** Monday, May 26, 10:00 AM–11:00 AM  
+**Location:** WDR 1007  
+**Speaker:** Alexander Kiselev
+
+A DKU University Colloquium event on singularities in partial differential equations.
+
+### Duke Kunshan University Hosts Digital Technology for Sustainability Symposium and Finance Forum 2025
+
+This event brings together technological innovation and global sustainability challenges through symposium and forum formats.
+
+### United in Innovation: Pioneering Technologies for a Better Tomorrow
+
+Hosted by the University Colloquium Committee at Duke Kunshan University, co-hosted by Data Science Research Center, DKU Finance and Computer Science Club, and other collaborators.
+
+### Bars as Neighborhood Third Places in Tokyo and Shanghai
+
+**Date:** April 15  
+**Time:** 5:00–6:00 PM  
+**Location:** LIB 2121  
+**Speakers:** James Farrer, Sophia University; Andrew Field, Duke Kunshan University
+
+---
+
+## Upcoming Events
