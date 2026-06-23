@@ -1,24 +1,33 @@
 ---
+title: DKU University Colloquium
 toc: false
 excludeSearch: true
 ---
 
-<div class="momo-tagline">
-<p>the modeling mobility conference is the premier forum for professionals working with travel models, transportation data, and quantitative analysis.</p>
-</div>
+# DKU University Colloquium
 
-{{< callouts >}}
+Duke Kunshan University (DKU) University Colloquium aims to cultivate intellectual conversations across boundaries. The colloquium committee selects pioneers of diverse backgrounds from academia, industry, government, non-profit organizations, and beyond.
 
-<br/>
-<br/>
+Our audience is university-wide, including undergraduate students, graduate students, researchers, faculty, and staff across disciplines and backgrounds. Therefore, talks aimed at an intelligent but general audience are most effective.
 
-# new and noteworthy
+## Explore
+
+- [About UCC](about/)
+- [Events](2025/)
+- [People](people/)
+- [Past Events](news/)
+
+## Featured Events
+
+- **Dominant Strategies of Individuals and Organizations and their Social Contexts**  
+  Spotlight event featuring Dr. Dingxin Zhao.
+
+- **Singularities in PDE**  
+  A DKU University Colloquium event featuring Alexander Kiselev.
+
+- **Digital Technology for Sustainability Symposium and Finance Forum 2025**  
+  A symposium and finance forum connecting digital technology and sustainability.
+
+## Latest Updates
 
 {{< recentposts 3 >}}
-
-<br/>
-<br/>
-
-# to learn more
-
-To learn more about whats next for momo, [sign-up for the mailing list](https://zephyrtransport.us14.list-manage.com/subscribe?u=ceb4ce0ac1c3256b66457d9d7&id=d0c8c0c0a6) and continue to follow this webpage.
