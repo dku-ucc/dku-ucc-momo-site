@@ -28,7 +28,7 @@ Our audience is university-wide, including undergraduate students, graduate stud
 
 ### 2026-current
 
-- Xinrong Sun, Major in Computer Science, Class of 2029
+- Xinrong Sun, Major in Applied Math and Computational Science, Class of 2029
 
 ### 2025–2026
 
