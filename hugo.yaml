@@ -28,14 +28,14 @@ menu:
       pageRef: /events
       weight: 2
     - name: Past Event
-      pageRef: /events/past
+      pageRef: /news/
       parent: events
-      weight: 1
+      weight: 3
     - name: People↗
       pageRef: /people
-      weight: 3
-    - name: Search
       weight: 4
+    - name: Search
+      weight: 5
       params:
         type: search
 
