@@ -21,7 +21,7 @@ The DKU University Colloquium Committee brings together faculty and collaborator
 
 ## Student Administrative Assistants
 
-- Xinrong Sun, Major in Computer Science, Class of 2029
+- Xinrong Sun, Major in Applied Math and Computational Science, Class of 2029
 - Chen Chen, Major in Data Science, Class of 2028
 - Yixin Yue, Major in Computation and Design (Digital Media), Class of 2026
 - Guangzhi Su, Major in Computer Science, Class of 2026
