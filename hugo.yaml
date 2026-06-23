@@ -20,17 +20,19 @@ markup:
 
 menu:
   main:
-    - name: about momo
+    - name: About UCC
       pageRef: /about
       weight: 1
-    - name: momo 2025
-      pageRef: /2025/
+    - identifier: events
+      name: Events
+      pageRef: /events
       weight: 2
-    # - name: News
-    #   pageRef: /news
-    #   weight: 2
-    - name: zephyr↗
-      url: 'https://zephyrtransport.org'
+    - name: Past Event
+      pageRef: /events/past
+      parent: events
+      weight: 1
+    - name: People↗
+      pageRef: /people
       weight: 3
     - name: Search
       weight: 4
