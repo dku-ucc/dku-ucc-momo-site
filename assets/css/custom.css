@@ -212,3 +212,30 @@ header [class*="dropdown"] a:hover {
   color: #ffffff !important;
   background-color: #00539B !important;
 }
+
+/* Force dropdown item text color */
+header div[class*="absolute"] a,
+header div[class*="absolute"] span,
+header div[class*="absolute"] p,
+header div[class*="absolute"] li,
+nav div[class*="absolute"] a,
+nav div[class*="absolute"] span,
+nav div[class*="absolute"] p,
+nav div[class*="absolute"] li {
+  color: #012169 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Dropdown background */
+header div[class*="absolute"],
+nav div[class*="absolute"] {
+  background-color: #ffffff !important;
+}
+
+/* Dropdown hover */
+header div[class*="absolute"] a:hover,
+nav div[class*="absolute"] a:hover {
+  color: #ffffff !important;
+  background-color: #00539B !important;
+}
