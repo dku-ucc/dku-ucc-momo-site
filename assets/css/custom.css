@@ -166,3 +166,37 @@ footer a,
   color: #dbeafe;
   font-size: 0.95rem;
 }
+
+/* Fix dropdown menu contrast */
+nav [role="menu"],
+header [role="menu"],
+nav .dropdown-menu,
+header .dropdown-menu,
+nav [class*="dropdown"],
+header [class*="dropdown"] {
+  background: #ffffff !important;
+  border: 1px solid #d8e2f0 !important;
+  box-shadow: 0 12px 32px rgba(1, 33, 105, 0.18) !important;
+}
+
+/* Dropdown links */
+nav [role="menu"] a,
+header [role="menu"] a,
+nav .dropdown-menu a,
+header .dropdown-menu a,
+nav [class*="dropdown"] a,
+header [class*="dropdown"] a {
+  color: #012169 !important;
+  background: transparent !important;
+}
+
+/* Dropdown hover */
+nav [role="menu"] a:hover,
+header [role="menu"] a:hover,
+nav .dropdown-menu a:hover,
+header .dropdown-menu a:hover,
+nav [class*="dropdown"] a:hover,
+header [class*="dropdown"] a:hover {
+  color: #ffffff !important;
+  background: #00539B !important;
+}
