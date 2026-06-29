@@ -1,5 +1,5 @@
 ---
-title: DKU University Colloquium
+title: ""
 toc: false
 excludeSearch: true
 ---
