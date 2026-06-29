@@ -1,0 +1,93 @@
+:root {
+  /* Duke official brand colors */
+  --duke-navy: #012169;
+  --duke-royal: #00539B;
+  --duke-light-blue: #EAF2FB;
+  --duke-ink: #07152F;
+  --duke-gray: #58595B;
+
+  /* Hextra primary color: Duke Royal Blue #00539B */
+  --primary-hue: 208deg;
+  --primary-saturation: 100%;
+  --primary-lightness: 30%;
+}
+
+/* Page text */
+body {
+  color: var(--duke-ink);
+  background: #ffffff;
+}
+
+/* Main headings */
+.content h1,
+.content h2,
+.content h3 {
+  color: var(--duke-navy);
+}
+
+/* Links */
+.content a {
+  color: var(--duke-royal);
+}
+
+.content a:hover {
+  color: var(--duke-navy);
+  text-decoration: underline;
+}
+
+/* Top navigation bar */
+nav,
+header {
+  background: var(--duke-navy) !important;
+}
+
+/* Navbar text */
+nav a,
+header a,
+nav button,
+header button {
+  color: #ffffff !important;
+}
+
+/* Search box in navbar */
+nav input,
+header input,
+.search-wrapper,
+.search-wrapper input {
+  background: rgba(255, 255, 255, 0.14) !important;
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+nav input::placeholder,
+header input::placeholder {
+  color: rgba(255, 255, 255, 0.78) !important;
+}
+
+/* Buttons / badges using primary color */
+[class*="bg-primary"],
+[class*="hx-bg-primary"] {
+  background-color: var(--duke-royal) !important;
+}
+
+[class*="text-primary"],
+[class*="hx-text-primary"] {
+  color: var(--duke-royal) !important;
+}
+
+/* Section dividers */
+hr {
+  border-color: #d8e2f0;
+}
+
+/* Footer, if shown */
+footer,
+.hextra-footer {
+  background: var(--duke-navy) !important;
+  color: #ffffff !important;
+}
+
+footer a,
+.hextra-footer a {
+  color: #dbeafe !important;
+}
