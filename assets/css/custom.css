@@ -200,3 +200,15 @@ header [class*="dropdown"] a:hover {
   color: #ffffff !important;
   background: #00539B !important;
 }
+
+/* Strong fallback for Hextra dropdown menu */
+.hx-absolute a,
+.hx-absolute span,
+.hx-absolute div {
+  color: #012169 !important;
+}
+
+.hx-absolute a:hover {
+  color: #ffffff !important;
+  background-color: #00539B !important;
+}
