@@ -23,17 +23,19 @@ menu:
     - name: About UCC
       pageRef: /about
       weight: 1
-    - identifier: events
-      name: Events
-      pageRef: /events
+    
+    - name: Events
+      pageRef: /2025/
       weight: 2
+      
     - name: Past Event
       pageRef: /news/
-      parent: events
       weight: 3
+      
     - name: People
       pageRef: /people
       weight: 4
+      
     - name: Search
       weight: 5
       params:
