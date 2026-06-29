@@ -91,3 +91,25 @@ footer a,
 .hextra-footer a {
   color: #dbeafe !important;
 }
+
+.ucc-button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 24px 0 36px;
+}
+
+.ucc-button {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: #00539B;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: 600;
+}
+
+.ucc-button:hover {
+  background: #012169;
+  color: #ffffff !important;
+}
