@@ -3,6 +3,19 @@ title: DKU University Colloquium
 baseURL: https://dku-ucc.github.io/dku-ucc-momo-site/
 theme: hextra
 
+# Author information - 必须填写完整
+author:
+  name: "DKU UCC"
+  email: "dku-ucc@dukekunshan.edu.cn"
+
+# 禁用所有 RSS 输出
+outputs:
+  home: ["HTML"]
+  page: ["HTML"]
+  section: ["HTML"]
+  taxonomy: ["HTML"]
+  term: ["HTML"]
+
 # import hextra as module
 #module:
 #  imports:
@@ -23,19 +36,19 @@ menu:
     - name: About UCC
       pageRef: /about
       weight: 1
-    
+
     - name: Events
       pageRef: /2025/
       weight: 2
-      
+
     - name: Past Event
       pageRef: /news/
       weight: 3
-      
+
     - name: People
       pageRef: /people
       weight: 4
-      
+
     - name: Search
       weight: 5
       params:
@@ -67,8 +80,3 @@ params:
     flexsearch:
       index: content
       tokenize: forward
-
-  outputs:
-    home: ['HTML', 'JSON']
-    speakers: ['HTML', 'JSON']
-    section: ['HTML', 'JSON']
